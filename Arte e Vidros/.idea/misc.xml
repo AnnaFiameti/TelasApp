@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Aluno/Documents/anna/Arte e Vidros/app/src/main/res/layout/activity_arte_vidro.xml" value="0.25" />
+        <entry key="..\:/Users/Aluno/Documents/anna/Arte e Vidros/app/src/main/res/layout/activity_arte_vidros2.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Aluno/Documents/anna/Arte e Vidros/app/src/main/res/layout/activity_artevidros3.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Aluno/Documents/anna/Arte e Vidros/app/src/main/res/layout/activity_box.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Aluno/Documents/anna/Arte e Vidros/app/src/main/res/layout/activity_engenharias.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Aluno/Documents/anna/Arte e Vidros/app/src/main/res/layout/activity_esquadria_aluminio.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Aluno/Documents/anna/Arte e Vidros/app/src/main/res/layout/activity_foto.xml" value="0.25" />
+        <entry key="..\:/Users/Aluno/Documents/anna/Arte e Vidros/app/src/main/res/layout/activity_guardocorpo2.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Aluno/Documents/anna/Arte e Vidros/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Aluno/Documents/anna/Arte e Vidros/app/src/main/res/layout/activity_marcarvisita.xml" value="0.25" />
+        <entry key="..\:/Users/Aluno/Documents/anna/Arte e Vidros/app/src/main/res/layout/activity_pecasavulsas.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Aluno/Documents/anna/Arte e Vidros/app/src/main/res/layout/activity_pedidos.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Aluno/Documents/anna/Arte e Vidros/app/src/main/res/layout/activity_perfil.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Aluno/Documents/anna/Arte e Vidros/app/src/main/res/layout/activity_portao.xml" value="0.25" />
+        <entry key="..\:/Users/Aluno/Documents/anna/Arte e Vidros/app/src/main/res/layout/activity_telhados.xml" value="0.25885416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

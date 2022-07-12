@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDC4F0"
+    tools:context=".Portao">
+
+    <Button
+        android:id="@+id/button61"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="60dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Cerca de Aluminio"
+        app:layout_constraintBottom_toTopOf="@+id/button63"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3" />
+
+    <Button
+        android:id="@+id/button63"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="60dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Portão Basculante"
+        app:layout_constraintBottom_toTopOf="@+id/button64"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3" />
+
+    <Button
+        android:id="@+id/button62"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Portão de Correr"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <Button
+        android:id="@+id/button64"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="60dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Portão de Abrir Aluminio"
+        app:layout_constraintBottom_toTopOf="@+id/button65"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3" />
+
+    <Button
+        android:id="@+id/button65"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="60dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Portão de Correr Aluminio "
+        app:layout_constraintBottom_toTopOf="@+id/button62"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3" />
+
+    <Button
+        android:id="@+id/button60"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Portões"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="69dp" />
+
+    <Button
+        android:id="@+id/button59"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/paginas"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-36dp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="110dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="56dp"
+        app:layout_constraintStart_toEndOf="@+id/button61"
+        app:srcCompat="@drawable/aluminio"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="110dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="56dp"
+        app:layout_constraintStart_toEndOf="@+id/button63"
+        app:srcCompat="@drawable/portaobasculante"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="91dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="65dp"
+        app:layout_constraintStart_toEndOf="@+id/button64"
+        app:srcCompat="@drawable/abriraluminio"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="110dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="57dp"
+        app:layout_constraintStart_toEndOf="@+id/button65"
+        app:srcCompat="@drawable/correraluminio"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="110dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="56dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/button62"
+        app:srcCompat="@drawable/portaocorrer"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="196dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

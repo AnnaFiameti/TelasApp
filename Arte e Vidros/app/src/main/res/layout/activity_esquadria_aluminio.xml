@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDC4F0"
+    tools:context=".EsquadriaAluminioActivity">
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/paginas"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-36dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Esquadrias de Alumínio "
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="69dp" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="48dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Janela Integrada"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_editor_absoluteX="23dp" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Janela De Correr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button27" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="36dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Janela Maxim - Ar"
+        app:layout_constraintTop_toBottomOf="@+id/button28"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="36dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Painel Fixo"
+        app:layout_constraintTop_toBottomOf="@+id/button29"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="36dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Porta Integrada"
+        app:layout_constraintTop_toBottomOf="@+id/button30"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="36dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Porta de Giro"
+        app:layout_constraintTop_toBottomOf="@+id/button31"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="36dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Porta de Correr"
+        app:layout_constraintTop_toBottomOf="@+id/button32"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginEnd="30dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button27"
+        app:srcCompat="@drawable/integradajanela"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="100dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button28"
+        app:srcCompat="@drawable/correrde"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="30dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button29"
+        app:srcCompat="@drawable/maxiar"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="120dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button30"
+        app:srcCompat="@drawable/vidrofixo"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="30dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button31"
+        app:srcCompat="@drawable/integradaposta"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="120dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button32"
+        app:srcCompat="@drawable/pordegiro"
+        tools:layout_editor_absoluteY="519dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="100dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button34"
+        app:srcCompat="@drawable/correrdeporta"
+        tools:layout_editor_absoluteY="598dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
